@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source = "app.terraform.io/leszenyi-cdwlab/s3-bucket/aws"
+  source = "app.terraform.io/laszlo_eszenyi/s3-bucket/aws"
 
   acl    = "private"
   bucket_prefix = "laszlo-e"
